@@ -27,7 +27,7 @@ void loop() {
     else if (input == "off") {
       motorOn = false;
       Serial.println("Moteur éteint.");
-      31analogWrite(choixPin, 0); // Assure que le moteur est éteint } else if (input== "forward") {
+      analogWrite(choixPin, 0); // Assure que le moteur est éteint } else if (input== "forward") {
       motorForward = true;
       Serial.println("Direction : Avant.");
     }
